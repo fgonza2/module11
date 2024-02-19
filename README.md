@@ -4,9 +4,9 @@ I have analyzed a dataset with approximately 450 thousand entries of car sales a
 
 In this analysis, i will describe the methodology used, provide links and overview of the code used and provide a final report for the end user (in this case a car dealer) on how to approach this problem without the need for the customer to have any knowledge in data science, and be able to take it in practical use. 
 
- **Methodology**
+### Applying the CRISP-DM Methodology
  
-Using the CRISP-DM (cross industry standard process for data mining) framework to start with the business problem and establish a process to analyze the data and develop the proper steps to structure the problem.   More information on CRISP-DM can be found **here** and **here**.  Sources that i have utilized to perform this analysis.  We want to use this methodology and avoid rushing into analytics and spend unnecessary time and resources.
+Using the CRISP-DM (cross industry standard process for data mining) framework to start with the business problem and establish a process to analyze the data and develop the proper steps to structure the problem.   More information on CRISP-DM can be found **here** and **here**.  Sources that i have utilized to perform this analysis.  I used this methodology and avoided rushing into analytics and spend unnecessary time and resources.   The analysis below describes the structure and steps that i followed for this project.
 
 **Business understanding**
 
@@ -32,11 +32,23 @@ Based on the understanding above we need to clean and scrub the data to get it r
  
   **Modeling**
 
-Given the business goals above, we will create a model that will assist calculations and predictions with the intent of identifying what drives the car price and what is important to the end user when paying for a car this will be identified anicand commuted as a list of car features that are important, that will help to draw the business strategy around it.  This model will also help to quanitfy the expectation of error and risk when say a new car arrives at the lot and a pricing needs to be set.   The model can always be improved resulting in better accuracy, a set of recommendations that may require further investing will be described as well. 
+Given the business goals above, we will create a model that will assist calculations and price predictions with the intent of identifying what drives the car price and what is important to the end user when paying for a car. This will be identified and provided as a list of car features.  This model will also help to quanitfy the expectation of error and risk when a new car arrives at the lot and a pricing needs to be set.   The model can always be improved resulting in better accuracy and a set of recommendations that may require further investing will be described as well. 
 
 The initial phase will be an exploratory analysis to understand the data and the potential models that can be applied, for example a linear regression, a ridge model and other parameters to evaluate the options given the constraints we have in terms of data volume and compute limitations.  I will select a model and "tune it" based on observations on the data provided and the transformations in the data.
 
   **Evaluation and implementation**
 
 Given the model selected, it is critical to find a way to measure the success and understand how accurate the model and conclusions are as we want to provide expectations on how much to rely on the model in order to be applied to the problem statement. I will provide the average error and what features to pay attention to, given their influence on the vehicle price.   The model will be tested with "new" data meaning data not utilized during the training phase of the model emulating a new batch of data influx and evaluate the model behavior as this data is previously known, so we can compare results.
+
+## Getting to work ...
+
+All of the main code is on this `Jupyter Notebook`.   The code illustrates the steps taken to perform the analysis.  
+
+As mentioned above the business understanding requires that we model our data and analyze it properly in order to reach conclusions and present the `final report` to the customer so they can make use of it and fine-tune their inventory which is the practical objective at the end of the day. 
+
+The recommendation is to open the Jupyter notebook linked above and walk through each section in order to follow the steps performed in the analysis with their proper explanation as per the CRISP-DM approach that was described above. 
+
+## Final Report
+
+The final report is written as a document as if it were to be delivered to a customer that is not a data scientist, so it is written in that language providing the conclusions, caveats, findings and recommendations for future enhancements.   This report can be found [here](https://www.amazon.com/Elements-Statistical-Learning-Prediction-Statistics/dp/0387848576)
 
