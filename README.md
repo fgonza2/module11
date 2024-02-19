@@ -44,11 +44,12 @@ Given the model selected, it is critical to find a way to measure the success an
 
 All of the main code is on this [Jupyter Notebook](https://github.com/fgonza2/module11/blob/main/car_sales_analysis.ipynb)   The code illustrates the steps taken to perform the analysis.  
 
-As mentioned above the business understanding requires that we model our data and analyze it properly in order to reach conclusions and present the [customer report](https://github.com/fgonza2/module11/blob/main/customer%20report.md) to the customer so they can make use of it and fine-tune their inventory which is the practical objective at the end of the day. 
+As mentioned above the business understanding requires that we model our data and analyze it properly in order to reach conclusions and present the [report](https://github.com/fgonza2/module11/blob/main/customer%20report.md) to the customer so they can make use of it and fine-tune their inventory which is the practical objective at the end of the day. 
 
 The recommendation is to open the Jupyter notebook linked above and walk through each section in order to follow the steps performed in the analysis with their proper explanation as per the CRISP-DM approach that was described above. 
 
 ## Final Report
 
-The final report is written as a document as if it were to be delivered to a customer that is not a data scientist, so it is written in that language providing the conclusions, caveats, findings and recommendations for future enhancements.   This report can be found [here](https://www.amazon.com/Elements-Statistical-Learning-Prediction-Statistics/dp/0387848576)
+The final report is written as a document as if it were to be delivered to a customer that is not a data scientist, so it is written in that language providing the conclusions, caveats, findings and recommendations for future enhancements.   This report can be found [here](https://github.com/fgonza2/module11/blob/main/customer%20report.md)
+
 
